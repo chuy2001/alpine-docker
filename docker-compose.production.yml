@@ -1,7 +1,7 @@
 version: "2"
 services:
   alpine:
-    image: chuy2001/alpine-docker
+    image: chuyong/alpine-docker
     build:
       context: .
       dockerfile: Dockerfile

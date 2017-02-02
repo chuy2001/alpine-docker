@@ -1,7 +1,7 @@
 version: "2"
 services:
   sut:
-    image: chuy2001/alpine-test
+    image: chuyong/alpine-test
     build:
       context: .
       dockerfile: Dockerfile

@@ -1,1 +1,1 @@
-docker build -t chuy2001/alpine-docker .
+docker build -t chuyong/alpine-docker .
