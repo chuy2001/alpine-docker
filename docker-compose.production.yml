@@ -1,0 +1,8 @@
+version: "2"
+services:
+  alpine:
+    image: chuy2001/alpine-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: [/bin/true]

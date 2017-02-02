@@ -1,0 +1,8 @@
+version: "2"
+services:
+  sut:
+    image: chuy2001/alpine-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["sh","/usr/local/sut/sut.sh"]
